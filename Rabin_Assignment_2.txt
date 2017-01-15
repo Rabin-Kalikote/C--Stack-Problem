@@ -1,0 +1,57 @@
+=====================
+What to do this week=
+=====================
+
+1. Make changes to your code for assignment 1, and submit a new commit to github. Things that should be done: 
+	a) Move logic for each choice to sub-routine when possible. 
+	b) Fix bug with ascending bubble sort. 
+
+2. Write a program that provides a way for using a stack data structure in C++. The stack will be used to hold a series of words. Submit solution to new 
+github repository. To do this, you need to first get C++ working in visual studio!!! 
+
+==============
+STACK PROBLEM=
+==============
+
+Stack Problem Menu
+=================================
+Below is an example of the main menu: 
+1. Insert word into stack. 
+2. Pop off word from stack. 
+3. Print the top word on the stack. 
+4. Print all the words in the stack, as a sentence. 
+5. Count the number of items in the stack. 
+6. Tell if stack is empty or not. 
+7. Delete everything in the stack. 
+8. Quit
+
+Stack Problem Menu Explanations
+==================================
+1. Should just ask user for a word to insert, and put it on top of the stack. 
+2. Should not ask user for anything! Just removes from the top of the stack. 
+3. Should NOT remove anything from the stack. Just print what is on top! 
+4. This is a harder question! You need to look at every element of the stack, but you can't delete them! 
+To solve this, you should "pop" all the elements into another, temporary, stack, so that you can put them back
+in afterwards! Ask me if you have questions about this. 
+5. Similar to problem 4! You will need to pop everything off in order to count, but then push them back! Therefore, 
+6. Should use the "empty" method of stack to determine if it's empty or not. 
+7. Should delete all the things in the stack, so that it is now empty! 
+8. Quit the problem. 
+you need to pop them off and push them into a temporary stack so that they are not lost permanently!
+
+
+=========================
+Useful Resources For You=
+=========================
+* A good introduction video about stacks!
+  https://www.youtube.com/watch?v=FNZ5o9S9prU 
+
+* Official C++ reference for a stack. Notice the "member functions" section says all of the functions that are built in to a c++ stack!
+  http://www.cplusplus.com/reference/stack/stack/
+
+* Example code for using "pop" function of a stack
+  http://www.cplusplus.com/reference/stack/stack/pop/
+
+* Example code for using "push" function of a stack
+  http://www.cplusplus.com/reference/stack/stack/push/
+
